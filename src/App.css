@@ -4,7 +4,7 @@
 
 nav {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 ul {
@@ -16,4 +16,8 @@ ul {
 form {
   display: flex;
   justify-content: center;
+}
+
+nav span, a {
+  padding: 1em 1em;
 }
