@@ -9,6 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1>🔑 React Auth! 🔓</h1>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
